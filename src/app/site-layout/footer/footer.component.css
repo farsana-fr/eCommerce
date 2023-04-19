@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Eczar:wght@500&family=Marck+Script&family=Merriweather:wght@400;700&family=Montserrat&family=Nerko+One&family=Poiret+One&family=Rubik+Distressed&family=Rubik+Glitch&family=Satisfy&display=swap");
+
+body {
+  margin: 3px;
+  font-family: "Montserrat", sans-serif;
+}
+.announce {
+  padding: 10px;
+  text-align: center;
+  background-color: yellow;
+  font-size: 14px;
+}
+.announce:hover {
+  color: gray;
+}
+header {
+  height: 15%;
+  background-color: #143243;
+  color: white;
+  position: sticky;
+  top: 0px;
+  padding: 10px;
+}
+.first {
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.headLink a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+}
+input {
+  height: 40px;
+  border-radius: 5px;
+  width:60px;
+}
+
+i {
+  color: white;
+  padding: 10px;
+}
+.nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  padding: 2%;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+}
+.dropdown-item{
+  color:black
+}
+.nav a:hover {
+  color: white;
+  border-bottom: 3px solid rgb(41, 177, 180);
+  padding-bottom: 5px;
+}
+
+.bannerimg {
+  width: 100%;
+  height: 400px;
+  /* background-image: url("../images/wall0.jpg"); */
+}
+.featured {
+  background-color: rgb(223, 221, 221);
+  padding: 100px 3%;
+}
+.offer {
+  background-color: orange;
+  position: fixed;
+  top: 60%;
+  padding: 0.5%;
+  font-weight: bolder;
+  color: white;
+}
+h1,
+h2,
+h5 {
+  font-family: "Merriweather", serif;
+  /* font-family: 'Eczar', serif; */
+  /* font-weight: bolder; */
+  font-size: xx-large;
+  text-align: center;
+}
+.featContentNav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.featNav a {
+  color: gray;
+  text-decoration: none;
+  font-size: small;
+}
+.featNav a:hover {
+  color: black;
+}
+.featNav .selected {
+  font-weight: bolder;
+  color: black;
+  border-bottom: 3px solid rgb(255, 213, 0);
+}
+.featContent,
+.missionContent {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.featGall,
+.mission {
+  width: 18%;
+  height: 340px;
+  margin-top: 100px;
+  font-size: smaller;
+}
+.featGall img {
+  width: 100%;
+  border-radius: 20px;
+}
+.featGall img:hover {
+  color: red;
+}
+.price {
+  color: orange;
+  margin-right: 2%;
+}
+.actPrice {
+  color: gray;
+  text-decoration: line-through;
+}
+.imghover {
+  position: relative;
+}
+.imghover button {
+  position: absolute;
+  top: -30px;
+  left: 20%;
+}
+.icon {
+  background-color: rgb(24, 128, 93);
+  color: white;
+  border-radius: 100%;
+}
+.icon1 {
+  position: absolute;
+  top: -200px;
+  right: 10%;
+
+  opacity: 0;
+}
+.icon-sec {
+  top: -150px;
+  right: 10%;
+}
+.firstimg:hover button,
+.firstimg:hover .icon1 {
+  opacity: 1;
+}
+.btnAll {
+  background-color: rgb(24, 128, 93);
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+.btnAllHd {
+  opacity: 0;
+}
+.arrow {
+  border-radius: 100%;
+  border: 1px solid white;
+}
+.arrow i {
+  color: black;
+}
+.btnAll:hover,
+.icon:hover,
+.arrow:hover {
+  background-color: orange;
+}
+.arrow:hover i {
+  color: white;
+}
+.mission {
+  width: 10%;
+  height: 100%;
+  text-align: center;
+}
+.mission p,
+.mission h2 {
+  font-size: smaller;
+}
+.missionDiv {
+  padding: 100px 5%;
+  height: 350px;
+}
+.mission img {
+  width: 100%;
+}
+.contact {
+  background-color: lightcyan;
+  padding: 5% 35%;
+}
+form button {
+  width: 100px;
+  height: 50px;
+}
+footer {
+  height: 700px;
+  background-color: #143243;
+  padding: 0% 10%;
+}
+.footerSec {
+  width: 30%;
+  padding: 10px;
+  text-align: center;
+  float: left;
+}
+.foot1 {
+  height: 300px;
+  border-bottom: 1px solid white;
+}
+.footerSec a {
+  display: block;
+  padding: 10px;
+  font-size: smaller;
+  text-decoration: none;
+  color: rgb(171, 167, 167);
+}
+.footerSec a:hover {
+  border-bottom: 3px solid aqua;
+  color: orange;
+}
+.footerSec h5 {
+  font-size: medium;
+  color: rgb(202, 197, 197);
+}
+.copyright {
+  color: white;
+  font-size: small;
+}
+.foot2 {
+  padding: 2%;
+  display: flex;
+  justify-content: space-between;
+}
+.payment img
+{
+  width: 100%;
+}

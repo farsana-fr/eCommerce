@@ -1,0 +1,14 @@
+
+nav {
+  height: 15%;
+  background-color: #143243;
+  color: white;
+  /* position: sticky; */
+  top: 0px;
+  padding: 10px;
+}
+a,li a
+{
+  text-decoration: none;
+  color:white
+}

@@ -1,0 +1,319 @@
+Angular First Project- Hosts in 4000 series normally 4200
+========================
+create project:
+    ng new prjName
+
+* always use small letters while naming projects
+Troubleshoot: 
+    npm i --force
+
+Open run by going inside project folder.-Make sure you are inside that project folder when you run below commands
+ng serve
+* we will get the host link, we will have to copy and go for the link
+
+ng serve --open
+* to ease the task of opening the project site in browser. It opens the browser from terminal.
+
+Don't close the terminal were you are running the server.
+
+===============================================
+Folder structure
+.angular
+ - configuration between CLI and Angular App
+
+.vscode
+ - configuration between VSCode and Angular App
+
+node_modules
+ - all third party packages we used in project are copied and stored here
+
+.browserslistsrc
+ - configuration between Browsers and Angular App
+
+.editorconfig
+ - configuration between editor and Angular App
+
+.gitignore
+ - to remove few files that are not required to be pushed to Git
+
+angular.json
+ - details about angular project
+
+karma.conf.js
+ - tool for Testers
+
+package.json/package-lock.json
+ - what all packages and versions are used.
+
+tsconfig.app.json/tsconfig.json/tsconfig.spec.json
+ - All required things related to TypeScript
+
+
+src:
+
+App==============
+=> all are connected,HTML CSS and TS don't need to link.Hurray 
+Just change component specific CSS to style that particular component.
+To change overall style, change the global styles.css
+You can also give inline style
+Root component gets created only once a project is created. 
+
+Delete:
+=============
+1) Delete folder
+2) Delete module.ts on declaration and import
+3) Delete where the selector is called\
+
+Apply all the links: Bootstrap and Font Awesome
+
+ts spec: cannot be changed
+ts module : only in app, it is the root module
+
+
+@-decarators
+inside this can be changes
+Angular provides us with 1 component(3 nodes) and 1 module
+
+
+Assets
+to store media files: images,video, etc
+
+style.css - style global files
+
+
+Angular is a framework used to create front-end webapps.
+React is a library. Framework folder structure cannot be changed, but libraries can be changed.
+
+Here we use:
+html,css and TypeScript.
+
+Transpiling:
+======================
+When the browser wants to run an Angular project, browser doesn't have an engine to run TS. So it converts TypeScript to JavaScript and to produce result, it will change back to TypeScript.
+
+
+npm - Node Package Module
+=============================
+Used to install third-party libraries or frameworks.
+global installation - to all the folders
+
+CLI -Command Line Interpreter.
+
+node -v
+npm -v
+Angular version: ng v
+
+Angular Install: npm i -g @angular/cli@latest
+
+==============================================================================
+Angular First Project
+
+ng new projectname
+Troubleshoot: npm i --force
+
+Open run from by going inside project folder.
+ng serve
+* we will get the host link, we will have to copy and go for the link
+
+ng serve --open
+* to ease the task of opening the project site in browser. It opens the browser from terminal.
+
+
+Add Font Awesome and Bootstrap link on index.html, because only that one has HTML structure
+
+Components have 4files, mainly three TS,HTML and CSS
+Selector will be in the selector decarator.
+
+Create Component:
+===========================
+ng g c login
+ng g c demo
+
+
+Delete Component:
+============================
+Go inside app and delete that from file explorer
+Delete the selectors also from app.module.ts
+
+
+ID AND NAME ARE COMPULSORY for Angular
+
+=======================================================================================================
+
+Redirections App routing modules
+
+Lifecycle of Angular Component:
+=========================================
+contructor --> ngOnInit --> Other methods
+no need to call ngOnInit
+
+
+
+Data Binding Techniques in Angular(data sharing in component)
+===========================================
+In export we have given data as Object
+
+html- view
+ts  - component
+
+Sharing data between HTML and TS.
+
+
+1. One Way Binding
+============================
+
+1.1 Component to View Data Sharing
+
+      1.1.1 String Interpollation {{}}
+      1.1.2 Property Binding      [property]=""
+
+1.2 View to Component Data Sharing
+
+	1.2.1 Event Binding (event)="method()"
+	1.2.2 Event Binding Using $event (event)=method($event)
+		click, change, keyUp, keyDown
+	1.2.3 Event Binding with Template Rendering Variable
+
+
+2. Two Way Binding
+============================
+
+2.1 FormsModule ngModel [(ngModel)]
+	[(ngModel)]="acno"
+
+Redirection in Angular:
+=======================================
+Module - AppRoutingModule
+Router - class used for Redirection.
+Methods- navigateByUrl
+
+There are modules and are inside a folder called Package. Module will have classes ,functions
+
+
+Dependency Injectiion:
+=============================
+to share data from one class to another class
+Done inside Constructor: 
+	access_specifier	reference:ClassName
+	private/public		to store objects - variable
+
+	reference.method()
+
+
+Service file:
+Data that is needed by all the components of the AngularProject.
+
+Angular Services:
+=========================
+to store redundent datas and methods
+- all the components can access the data and methods defined inside the Service file.
+
+	-ng g s <serviceName>
+
+
+
+ANGULAR DIRECTIVES - to manipulate DOM using Angular
+===============================
+1. Component Directives
+2. Structural Directives 
+	*ngFor
+	*ngIf
+3. Attribute Directives
+	*[ngClass]
+
+Form Validation in Angular:
+===========================
+form creation in Angular:
+	1. Template Driven Form
+	2. Model Driven Form - easy
+
+
+CRUD
+C-localStrorage.setIem()
+R-localStrorage.getIem()
+U-localStrorage.setIem()
+D-localStrorage.deleteIem()
+
+Child Parent Communication
+================
+
+@Input - from parent to child
+
+
+Model Driven Form
+-------------------
+reactive form 
+	-ReactiveFormsModule - module used to create model driven form
+	-FormBuilder - class used to create model driven form
+	- a model contain
+		- form group
+		- array
+		- controller
+
+
+API Creation in Angular
+---------------------------
+
+HttpClientModule -module
+HttpClient - class
+
+	methods
+	=======
+	get,put.post...
+
+
+Async in TS   = rxjs(reactive extension for JS)
+----------
+observable - subscribe()
+		-catch()
+
+Header Creation:
+=====================
+HttpHeaders- class used to generate headers
+
+
+Lazy Loading
+==================
+Technology used to create lazy loaded module for faster loading of high traffic pages
+
+ng g module moduleName --route moduleName --module app.module
+ng g module products --route products --module app.module
+
+-all product view
+- single product view
+- edit product
+- delete product 
+- add new product
+
+If you have newly created normal module. connect it to Root:app and also expost it from that module.
+
+After creating lazy module,we went inside that and created module-routing and has set path for all components.
+
+
+JSON server
+================
+to run JSON files
+npm i --save json-server
+npx json-server --watch filename --port 3000
+
+Access Params from URL
+============================
+
+ActivatedRoute- class used to access Params
+
+params- method used to access params
+
+Pipe Creation in Angular
+==================================
+ng g pipe pipeName
+
+transform(value,filterString,propName)
+
+value - pipe applied on
+filterString -keyword used to filter
+propName- property name.
+
+
+Data Sharing from Module to Module
+==================================
+Behaviour Subject -rxjs Reactive Extension for JS
