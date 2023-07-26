@@ -9,14 +9,15 @@
                     RS.  {{pdata.price}}
                 </div>
                 <p class="rating">Rating :{{pdata.rating}}</p>
+                <p class="available">Available: {{pdata.is_available}}</p>
                 <div class="d-flex">
                     
                     <button class="btn btn-warning flex-shrink-0 me-5" type="button">
-                        <a href="">Edit</a>
+                        <a href="products/edit-product/{{pdata.id}}">Edit</a>
                         
                     </button>
                     <button class="btn btn-danger flex-shrink-0" type="button">
-                        <a href="">Delete</a>
+                        <a    href="products/delete-product/{{pdata.id}}">Delete</a>
                         
                     </button>
                 </div>

@@ -1,1 +1,28 @@
-<p>add-product works!</p>
+<div class="container w-50 mt-5 bg-light p-5">
+  <form action="" [formGroup]="addProdForm" (ngSubmit)="addProd()">
+    <label for="pid" >Product Id</label>
+    <input formControlName="id" type="text" name="pidName" id="pid" class="form-control" /><br>
+    <label for="pname">Product Name</label>
+    <input formControlName="productName" type="text" name="pnameName" id="pname"  class="form-control"/><br>
+  
+    <label for="brandId">Brand ID</label>
+    <input formControlName="brandId" type="text" name="brandIdName" id="brandId" class="form-control" /><br>
+  
+    <label for="brand">Brand Name</label>
+    <input formControlName="brand" type="text" name="brandName" id="brand" class="form-control" /><br>
+  
+    <label for="pImg">Product Image</label>
+    <input formControlName="productImg" type="text" name="pImgName" id="pImg" class="form-control" /><br>
+  
+    <label for="priceId">Price</label>
+    <input formControlName="price" type="text" name="price" id="priceId" class="form-control" /><br>
+  
+    <label for="avail">Available</label>
+    <input formControlName="is_available" type="text" name="availName" id="avail" class="form-control" /><br>
+  
+    <label for="rating">Rating</label>
+    <input formControlName="rating" type="text" name="ratingName" id="rating"  class="form-control"/><br>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+  
+</div>

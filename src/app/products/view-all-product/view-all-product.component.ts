@@ -9,6 +9,7 @@ import { ProductService } from '../product.service';
 export class ViewAllProductComponent implements OnInit {
   productData:any
   filterBrand:any
+  searchString:any=''
   constructor(private ps:ProductService)
   {}
   ngOnInit():void{
@@ -16,6 +17,12 @@ export class ViewAllProductComponent implements OnInit {
       // console.log(data);
       this.productData=data
       console.log(data)
+    })
+
+
+    this.ps.search.subscribe((data:any)=>{
+      this.searchString=data
+      console.log("data",data);
     })
   }
   filter(brand:any)

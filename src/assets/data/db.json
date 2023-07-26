@@ -1,144 +1,134 @@
 {
-    "products": [
-      {
-        "id": 1,
-        "productName":"Nako Spaghetti Thick Chunky Yarn - Waterfall 2273",
-        "brandId":"1",
-        "brand":"Nako",
-        "productImg":"https://i.postimg.cc/6qMtmGWd/sp.jpg",
-        "price":250,
-        "is_available":true,
-        "rating":4.3
-      },
-      {
-        "id": 2,
-        "productName":"Ganga Olivia Yarn - Yellow OLV028",
-        "brandId":"2",
-        "brand":"Ganga",
-        "productImg":"https://i.postimg.cc/rprb6Lpz/3.jpg",
-        "price":97,
-        "is_available":true,
-        "rating":4.4
-      },
-      {
-        "id": 3,
-        "productName":"Ganga Blankie Yarn - Blue BLK018",
-        "brandId":"2",
-        "brand":"Ganga",
-        "productImg":"https://i.postimg.cc/qvjBtyc2/blaBlu.jpg",
-        "price":102,
-        "is_available":true,
-        "rating":4.1
-      },
-      {
-        "id": 4,
-        "productName":"Ganga Hobby India Crochet Thread - White 10",
-        "brandId":"2",
-        "brand":"Ganga",
-        "productImg":"https://i.postimg.cc/0jTPsCsq/awhite.jpg",
-        "price":82,
-        "is_available":true,
-        "rating":4.7
-      },
-      {
-        "id": 5,
-        "productName":"Ganga Taj Mahal Super Fine Merino Wool - Cream TM13 ",
-        "brandId":"2",
-        "brand":"Ganga",
-        "productImg":"https://i.postimg.cc/brWNvh1W/taj.jpg",
-        "price":172,
-        "is_available":true,
-        "rating":4
-      },
-      {
-        "id": 6,
-        "productName":"Ganga Blankie Yarn - Yellow BLK003",
-        "brandId":"2",
-        "brand":"Ganga",
-        "productImg":"https://i.postimg.cc/T3W5gkwn/blank-Yell.jpg",
-        "price":102,
-        "is_available":true,
-        "rating":4.7
-      },
-      {
-        "id": 7,
-        "productName":"Ganga Blankie Speckled Yarn - BLS007",
-        "brandId":"2",
-        "brand":"Ganga",
-        "productImg":"https://i.postimg.cc/SNxW27CG/blankie.jpg",
-        "price":357,
-        "is_available":false,
-        "rating":4.2
-      },
-      {
-        "id": 8,
-        "productName":"Soft N Smooth Ombre Yarn - SSO006 ",
-        "brandId":"2",
-        "brand":"Ganga",
-        "productImg":"https://i.postimg.cc/Mp4b8Mcm/ombre.jpg",
-        "price":315,
-        "is_available":true,
-        "rating":4.3
-      },
-      {
-        "id": 9,
-        "productName":"Nako Pop Mix Yarn - Multi Color 86584",
-        "brandId":"1",
-        "brand":"Nako",
-        "productImg":"https://i.postimg.cc/SRrf0g8n/mix.jpg",
-        "price":261,
-        "is_available":true,
-        "rating":4.1
-      },
-      {
-        "id": 10,
-        "productName":"Nako Sport Wool Yarn - Tile 4409",
-        "brandId":"1",
-        "brand":"Nako",
-        "productImg":"https://i.postimg.cc/NfBdNHTy/sport.jpg",
-        "price":260,
-        "is_available":true,
-        "rating":4.2
-      },
-      {
-        "id": 11,
-        "productName":"Hobby Store DK Anti-Pill Cake Yarn - Sea Hues 4004",
-        "brandId":"3",
-        "brand":"Hobby Store",
-        "productImg":"https://i.postimg.cc/Dz8jr3GB/hue.jpg",
-        "price":155,
-        "is_available":true,
-        "rating":4.9
-      },
-      {
-        "id": 12,
-        "productName":"Hobby Store DK Special Yarn - Lavender 5021",
-        "brandId":"3",
-        "brand":"Hobby Store",
-        "productImg":"https://i.postimg.cc/k566NTgx/lavender.jpg",
-        "price":130,
-        "is_available":true,
-        "rating":4.8
-      },
-      {
-        "id": 13,
-        "productName":"Hobby Store DK Special Yarn - Lilac 5024",
-        "brandId":"3",
-        "brand":"Hobby Store",
-        "productImg":"https://i.postimg.cc/wTXkLTG6/lilac.jpg",
-        "price":130,
-        "is_available":true,
-        "rating":4.3
-      },
-      {
-        "id": 14,
-        "productName":"Hobby Store Recycled Denim Yarn - Vintage 8020",
-        "brandId":"3",
-        "brand":"Hobby Store",
-        "productImg":"https://i.postimg.cc/hjyg7f1V/denim.jpg",
-        "price":145,
-        "is_available":true,
-        "rating":4.6
-      }
-    ]
-  }
+  "products": [
+    {
+      "id": 1,
+      "productName": "Nako Spaghetti Thick Chunky Yarn - Waterfall 2273",
+      "brandId": "1",
+      "brand": "Nako",
+      "productImg": "https://i.postimg.cc/6qMtmGWd/sp.jpg",
+      "price": 250,
+      "is_available": true,
+      "rating": 4.3
+    },
+    {
+      "id": 2,
+      "productName": "Ganga Olivia Yarn - Yellow OLV028",
+      "brandId": "2",
+      "brand": "Ganga",
+      "productImg": "https://i.postimg.cc/rprb6Lpz/3.jpg",
+      "price": 97,
+      "is_available": true,
+      "rating": 4.4
+    },
+    {
+      "id": 5,
+      "productName": "Ganga Taj Mahal Super Fine Merino Wool - Cream TM13 ",
+      "brandId": "2",
+      "brand": "Ganga",
+      "productImg": "https://i.postimg.cc/brWNvh1W/taj.jpg",
+      "price": 172,
+      "is_available": true,
+      "rating": 4
+    },
+    {
+      "id": 6,
+      "productName": "Ganga Blankie Yarn - Yellow BLK003",
+      "brandId": "2",
+      "brand": "Ganga",
+      "productImg": "https://i.postimg.cc/T3W5gkwn/blank-Yell.jpg",
+      "price": 102,
+      "is_available": true,
+      "rating": 4.7
+    },
+    {
+      "id": 7,
+      "productName": "Ganga Blankie Speckled Yarn - BLS007",
+      "brandId": "2",
+      "brand": "Ganga",
+      "productImg": "https://i.postimg.cc/SNxW27CG/blankie.jpg",
+      "price": 357,
+      "is_available": false,
+      "rating": 4.2
+    },
+    {
+      "id": 8,
+      "productName": "Soft N Smooth Ombre Yarn - SSO006 ",
+      "brandId": "2",
+      "brand": "Ganga",
+      "productImg": "https://i.postimg.cc/Mp4b8Mcm/ombre.jpg",
+      "price": 315,
+      "is_available": true,
+      "rating": 4.3
+    },
+    {
+      "id": 9,
+      "productName": "Nako Pop Mix Yarn - Multi Color 86584",
+      "brandId": "1",
+      "brand": "Nako",
+      "productImg": "https://i.postimg.cc/SRrf0g8n/mix.jpg",
+      "price": 261,
+      "is_available": true,
+      "rating": 4.1
+    },
+    {
+      "id": 10,
+      "productName": "Nako Sport Wool Yarn - Tile 4409",
+      "brandId": "1",
+      "brand": "Nako",
+      "productImg": "https://i.postimg.cc/NfBdNHTy/sport.jpg",
+      "price": 260,
+      "is_available": true,
+      "rating": 4.2
+    },
+    {
+      "id": 11,
+      "productName": "Hobby Store DK Anti-Pill Cake Yarn - Sea Hues 4004",
+      "brandId": "3",
+      "brand": "Hobby Store",
+      "productImg": "https://i.postimg.cc/Dz8jr3GB/hue.jpg",
+      "price": 155,
+      "is_available": true,
+      "rating": 4.9
+    },
+    {
+      "id": 12,
+      "productName": "Hobby Store DK Special Yarn - Lavender 5021",
+      "brandId": "3",
+      "brand": "Hobby Store",
+      "productImg": "https://i.postimg.cc/k566NTgx/lavender.jpg",
+      "price": 130,
+      "is_available": true,
+      "rating": 4.8
+    },
+    {
+      "id": 13,
+      "productName": "Hobby Store DK Special Yarn - Lilac 5024",
+      "brandId": "3",
+      "brand": "Hobby Store",
+      "productImg": "https://i.postimg.cc/wTXkLTG6/lilac.jpg",
+      "price": 130,
+      "is_available": true,
+      "rating": 4.3
+    },
+    {
+      "id": 14,
+      "productName": "Hobby Store Recycled Denim Yarn - Vintage 8020",
+      "brandId": "3",
+      "brand": "Hobby Store",
+      "productImg": "https://i.postimg.cc/hjyg7f1V/denim.jpg",
+      "price": 145,
+      "is_available": true,
+      "rating": 4.6
+    },
+    {
+      "id": "15",
+      "productName": "Nako Bonbon Panda Baby Yarn - Grey 3104 849 ",
+      "brandId": "1",
+      "brand": "Nako",
+      "productImg": "https://i.postimg.cc/pXhcfn8L/new.jpg",
+      "price": "305",
+      "is_available": "true",
+      "rating": "4.3"
+    }
+  ]
+}

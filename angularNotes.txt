@@ -174,6 +174,8 @@ Sharing data between HTML and TS.
 		click, change, keyUp, keyDown
 	1.2.3 Event Binding with Template Rendering Variable
 
+		#
+
 
 2. Two Way Binding
 ============================
@@ -181,7 +183,7 @@ Sharing data between HTML and TS.
 2.1 FormsModule ngModel [(ngModel)]
 	[(ngModel)]="acno"
 
-Redirection in Angular:
+Redirection in Angular:AppRoutingModule,Router
 =======================================
 Module - AppRoutingModule
 Router - class used for Redirection.
@@ -226,7 +228,7 @@ Form Validation in Angular:
 form creation in Angular:
 	1. Template Driven Form
 	2. Model Driven Form - easy
-
+CLass FormBuilder from FormsModule. Need ReactiveFormsModule
 
 CRUD
 C-localStrorage.setIem()
@@ -317,3 +319,10 @@ propName- property name.
 Data Sharing from Module to Module
 ==================================
 Behaviour Subject -rxjs Reactive Extension for JS
+1. import behavior Subject
+2. create an object of behavior Subject
+3. send the data using next method
+4. access data using subscribe
+
+
+
